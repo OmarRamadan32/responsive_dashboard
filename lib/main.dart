@@ -6,7 +6,7 @@ void main() {
 }
 
 class ResponsiveDashboard extends StatelessWidget {
-  const ResponsiveDashboard({Key? key}) : super(key: key);
+  const ResponsiveDashboard({super.key});
 
   @override
   Widget build(BuildContext context) {
