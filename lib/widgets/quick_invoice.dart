@@ -9,17 +9,15 @@ class QuickInvoice extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomBackgroundContainer(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          QuickInvoiceHeader(),
-          SizedBox(height: 24),
-          LatestTransaction(),
-          Divider(thickness: 1, height: 48, color: Color(0XFFF1F1F1)),
-          QuickInvoiceForm(),
-        ],
-      ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        QuickInvoiceHeader(),
+        SizedBox(height: 24),
+        LatestTransaction(),
+        Divider(thickness: 1, height: 48, color: Color(0XFFF1F1F1)),
+        QuickInvoiceForm(),
+      ],
     );
   }
 }
