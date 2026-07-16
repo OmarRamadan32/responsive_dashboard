@@ -10,7 +10,6 @@ class AllExpensessAndQuickInvoiceSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(height: 40),
         CustomBackgroundContainer(
           child: Column(
             children: [AllExpensess(), SizedBox(height: 24), QuickInvoice()],
