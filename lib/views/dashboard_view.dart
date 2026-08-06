@@ -19,10 +19,10 @@ class _DashboardViewState extends State<DashboardView> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
-      drawer: SizeConfig.width < SizeConfig.tablet
+      drawer: MediaQuery.of(context).size.width < SizeConfig.tablet
           ? const CustomDrawer()
           : null,
-      appBar: SizeConfig.width < SizeConfig.tablet
+      appBar: MediaQuery.of(context).size.width < SizeConfig.tablet
           ? AppBar(
               elevation: 0,
               backgroundColor: Color(0XFFFAFAFA),
