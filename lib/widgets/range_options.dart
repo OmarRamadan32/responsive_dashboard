@@ -18,8 +18,8 @@ class RangeOptions extends StatelessWidget {
         ),
       ),
       child: Row(
-        children: const [
-          Text("Monthly", style: AppStyles.styleMedium16),
+        children:  [
+          Text("Monthly", style: AppStyles.styleMedium16(context)),
           SizedBox(width: 18),
           Icon(Icons.keyboard_arrow_down_rounded, color: Color(0XFF064061)),
         ],

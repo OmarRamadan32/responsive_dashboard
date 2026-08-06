@@ -15,7 +15,7 @@ class TransactionHistory extends StatelessWidget {
         SizedBox(height: 20),
         Text(
           '13 April 2022',
-          style: AppStyles.styleRegular16.copyWith(color: Color(0XFFAAAAAA)),
+          style: AppStyles.styleRegular16(context).copyWith(color: Color(0XFFAAAAAA)),
         ),
         SizedBox(height: 16),
         TransactionHistoryListView(),
